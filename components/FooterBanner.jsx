@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import { urlFor } from '@/lib/client';
+// import { urlFor } from '@/lib/client';
+import Image from 'next/image';
+import FooterLogo from '../Images/FerarriLogo.png';
 
 const FooterBanner = ({
   footerBanner: {
@@ -33,7 +35,12 @@ const FooterBanner = ({
             <button type="button">{buttonText}</button>
           </Link>
         </div>
-        <img src={urlFor(image)} className="footer-banner-image" />
+        {/* <img src={urlFor(image)} className="footer-banner-image" /> */}
+        <Image
+          src={FooterLogo}
+          alt="Footer Logo"
+          className="footer-banner-image"
+        />
       </div>
     </div>
   );
