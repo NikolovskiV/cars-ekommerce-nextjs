@@ -25,12 +25,12 @@ const FooterBanner = ({
           <p>{discount}</p>
           <h3>{largeText1}</h3>
           <h3>{largeText2}</h3>
-          <p>{saleTime}</p>
+          <p>1 Jun - 31 Avg</p>
         </div>
         <div className="right">
           <p>Best Cars Ever</p>
           <h3>{midText}</h3>
-          <p>{desc}</p>
+          <p>Best Cars on the Market</p>
           <Link href={`/product/${product}`}>
             <button type="button">{buttonText}</button>
           </Link>
