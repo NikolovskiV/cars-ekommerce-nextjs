@@ -317,6 +317,11 @@ span.text-red {
   display: flex;
   gap: 10px;
 }
+
+.footer__button:hover {
+  color: black;
+  background-color: rgb(231, 231, 16);
+}
 .cart-heading {
   display: flex;
   align-items: center;
