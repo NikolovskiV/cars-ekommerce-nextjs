@@ -704,7 +704,7 @@ span.text-red {
   .footer-banner-image {
     width: 90%;
     left: 5%;
-    top: 30%;
+    top: 28%;
     height: 35%;
   }
   .banner-desc .left h3 {
@@ -726,6 +726,7 @@ span.text-red {
     font-size: 14px;
   }
   .banner-desc {
+    margin-top: -15px;
     flex-wrap: wrap;
     gap: 180px;
   }
