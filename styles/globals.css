@@ -322,6 +322,12 @@ span.text-red {
   color: black;
   background-color: rgb(231, 231, 16);
 }
+
+.navbar__button:hover {
+  color: black;
+  background-color: rgb(231, 231, 16);
+  border: 2px solid black;
+}
 .cart-heading {
   display: flex;
   align-items: center;
